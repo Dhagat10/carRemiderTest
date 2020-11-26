@@ -1,0 +1,117 @@
+.navbar{
+  background-color:  #09c5e4;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu{
+  background-color: #09c5e4;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  height: 100%;
+}
+
+.nav-menu.active{
+  left: 0;
+  transition: 350ms;
+  height: 100%;
+}
+.nav-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+
+}
+
+.nav-text a{
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size : 18px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover{
+  background-color: #1a83ff;
+}
+
+.nav-menu-items{
+  width: 100%;
+}
+
+.navbar-toggle{
+  background-color: #09c5e4;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span{
+  margin-left: 16px;
+}
+
+.dropdown-button{
+   background: #070708;
+}
+
+.dropdown-menu{
+  background: rgb(11,11,11);
+  background: linear-gradient(343deg, rgba(11,11,11,1) 0%, rgba(149,155,156,1) 100%);
+  text-decoration-color: white;
+}
+
+.NavbarBrand{
+  background-color:  #09c5e4;
+  align-items: center;
+}
+.background image{
+  margin-left: -56px;
+  position: relative;
+}
+
+/* .footer{
+  margin-left: 43%;
+} */
+.card {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: left;
+  font-family: arial;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  outline: 0;
+  background: rgb(247,247,247);
+  background: linear-gradient(343deg, rgba(247,247,247,1) 0%, rgba(9,197,228,1) 100%);
+  margin: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card-image{
+  width: 100px;
+}
